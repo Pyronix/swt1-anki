@@ -1,0 +1,296 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "48222cb2-5469-11e8-ab3c-80fa5b2f5f94", 
+    "deck_config_uuid": "48222cb3-5469-11e8-ab3c-80fa5b2f5f94", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "48222cb3-5469-11e8-ab3c-80fa5b2f5f94", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "mid": "1519883200494", 
+    "name": "SWT1 - Kapitel 0", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Vorderseite", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Rückseite", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Einfach", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [
+                "Definition", 
+                "Softwaresystemen", 
+                "Softwaretechnik"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Karte 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>Softwaretechnik (engl. software</div><div>engineering) ist ...</div>", 
+                "...&nbsp;die <font color=\"#0000ff\">Lehre</font> von der<div><font color=\"#0000ff\">Softwarekonstruktion</font>: der</div><div>systematischen <font color=\"#aa0000\">Entwicklung</font> und <font color=\"#aa0000\">Pflege</font></div><div>von <font color=\"#aa0000\">Softwaresystemen</font></div>"
+            ], 
+            "flags": 0, 
+            "guid": "n]VN<8?0aL", 
+            "note_model_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "tags": [
+                "Definition", 
+                "Softwarekonstruktion", 
+                "Softwaresystemen", 
+                "Softwaretechnik"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>Softwaretechnik (engl. software</div><div>engineering) ist die ...</div>", 
+                "...&nbsp;technologische und<div>organisatorische Disziplin zur</div><div>systematischen Entwicklung und Pflege</div><div>von Softwaresystemen, die spezifizierte</div><div>funktionale und nicht-funktionale Attribute</div><div>erfüllen.</div>"
+            ], 
+            "flags": 0, 
+            "guid": "wFYq.Ha~F[", 
+            "note_model_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "tags": [
+                "Definition", 
+                "Softwaresystemen", 
+                "Softwaretechnik"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Softwaretechnik ...", 
+                "... ist die technologische und organisatorische Disziplin zur systematischen Entwicklung und Pflege von Softwaresystemen, die spezifizierte funktionale und nicht-funktionale Attribute erfüllen."
+            ], 
+            "flags": 0, 
+            "guid": "f&?(hkPr=)", 
+            "note_model_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Funktionale Attribute ...", 
+                "... sind spezifizierte Funktionen der Software."
+            ], 
+            "flags": 0, 
+            "guid": "lQ:KW5p-bl", 
+            "note_model_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Qualitätsattribute (auch Nicht-funktionale Attribute) ...", 
+                "... spezifizieren, wie gut die Software ihre Funktionen erfüllt (Zuverlässigkeit, Geschwindigkeit, Benutzerfreundlichkeit, Sicherheit, etc. [auch innere Qualitäten])"
+            ], 
+            "flags": 0, 
+            "guid": "dN-gp#Ex~j", 
+            "note_model_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Software ...", 
+                "... sind die zum Betrieb einer Datenverarbeitungsanlage erforderlichen nicht-apparativen Funktionsbestandteile"
+            ], 
+            "flags": 0, 
+            "guid": "O3D*@|oNEz", 
+            "note_model_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "(Software-) Produkt ...", 
+                "... ist ein in sich abgeschlossenes, für einen Auftraggeber oder einen anonymen Markt bestimmtes Ergebnis eines erfolgreich durchgeführten Projekts oder Herstellungsprozesses."
+            ], 
+            "flags": 0, 
+            "guid": "rW-G|oyJZX", 
+            "note_model_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Ein System ...", 
+                "... ist eine Betrachtungsweise aufs Teilen die untereinander in verschiedenen Beziehungen stehen und miteinander wechselwirken können (besteht aus realen Gegenständen und/oder Konzepten)."
+            ], 
+            "flags": 0, 
+            "guid": "X9/x=BnKi", 
+            "note_model_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Ein Softwaresystem ...", 
+                "... ist ein System, dessen Systemkomponenten und Systemelemente aus Software bestehen."
+            ], 
+            "flags": 0, 
+            "guid": "KNhi$64-fv", 
+            "note_model_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Ein Systemsoftware (auch Basissoftware) ...", 
+                "... ist ein System für spezielle Hardware entwickelt, dass den Betrieb und die Wartung dieser ermöglicht und erleichtert (z.B: Betriebssystem, Compiler, Datenbanken)"
+            ], 
+            "flags": 0, 
+            "guid": "Fh5/>RZc*v", 
+            "note_model_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Eine Anwendungssoftware ...", 
+                "... ist eine Software die eine Aufgabe des Anwenders mit Hilfe von Rechenanlage löst."
+            ], 
+            "flags": 0, 
+            "guid": "DGB1sfii=+", 
+            "note_model_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Computersystem (auch Datenverarbeitungssystem) ...", 
+                "... bestehen aus Anwendungssoftware + Systemsoftware + Hardware."
+            ], 
+            "flags": 0, 
+            "guid": "qyx|ZnYP=R", 
+            "note_model_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Ein Szenario ...", 
+                "... ist die Beschreibung eines Ereignisses oder einer Folge von Aktionen und Ereignissen (kann aus Text, Bild, Video, etc. bestehen und ist aus Benutzersicht)."
+            ], 
+            "flags": 0, 
+            "guid": "qH2[Q<zNJ=", 
+            "note_model_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Einen Softwarearchitektur ...", 
+                "... ist die Gliederung eines Softwaresystems in Komponenten und Subsysteme und dessen Zusammenspiel, wobei eine Bestandshierarchie entsteht."
+            ], 
+            "flags": 0, 
+            "guid": "d%A/a^BP;e", 
+            "note_model_uuid": "a99250cc-84fa-11e8-9650-80fa5b2f5f94", 
+            "tags": []
+        }
+    ]
+}
