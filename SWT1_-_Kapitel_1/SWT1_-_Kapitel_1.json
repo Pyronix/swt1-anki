@@ -1,0 +1,239 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "e163eda0-81e8-11e8-977e-80fa5b2f5f94", 
+    "deck_config_uuid": "48222cb3-5469-11e8-ab3c-80fa5b2f5f94", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "48222cb3-5469-11e8-ab3c-80fa5b2f5f94", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "mid": "1519883200490", 
+    "name": "SWT1 - Kapitel 1", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "e163eda4-81e8-11e8-977e-80fa5b2f5f94", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Vorderseite", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Rückseite", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Einfach (beide Richtungen)", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        1
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Karte 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Vorderseite}}"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Vorderseite}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Karte 2", 
+                    "ord": 1, 
+                    "qfmt": "{{Rückseite}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Ein Szenario ...", 
+                "... ist die Beschreibung eines Ereignisses oder eine Folge von Aktionen und Ereignisse"
+            ], 
+            "flags": 0, 
+            "guid": "q3pm;Y%g?p", 
+            "note_model_uuid": "e163eda4-81e8-11e8-977e-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Ein Akteur (actor) ...", 
+                "... spezifiziert eine Rolle eines Benutzer oder eines anderen Systems, welches mit dem von uns geplanten System interagiert"
+            ], 
+            "flags": 0, 
+            "guid": "B_,[a3H.1*", 
+            "note_model_uuid": "e163eda4-81e8-11e8-977e-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Ein Anwendungsfall (use case) ...", 
+                "... stellt eine Klasse von Funktionen dar, welches das System anbietet."
+            ], 
+            "flags": 0, 
+            "guid": "gAEIPtGrT3", 
+            "note_model_uuid": "e163eda4-81e8-11e8-977e-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Ein Anwendungsfalldiagramm (use case model) ...", 
+                "... ist die Menge aller Anwendungsfälle, welche die gesamte Funktionalität des Systems beschreiben"
+            ], 
+            "flags": 0, 
+            "guid": "ezg1cC)b95", 
+            "note_model_uuid": "e163eda4-81e8-11e8-977e-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Funktionale Anforderungen (functional requirements) ...", 
+                "... beschreiben die Interaktionen zwischen dem System und der Systemumgebung."
+            ], 
+            "flags": 0, 
+            "guid": "G*qj:]_Wix", 
+            "note_model_uuid": "e163eda4-81e8-11e8-977e-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Nichtfunktionale Anforderungen (non-functional requirements) ...", 
+                "... beschreiben Aspekte, die nicht direkt mit dem funktionalen Verhalten des Systems in Verbindung stehen"
+            ], 
+            "flags": 0, 
+            "guid": "PS*O!JhLLD", 
+            "note_model_uuid": "e163eda4-81e8-11e8-977e-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Die Benutzbarkeit (engl. usability) ist die ...", 
+                "... Leichtigkeit, mit welcher die Akteure mit einem System eine Funktion ausführen können"
+            ], 
+            "flags": 0, 
+            "guid": "GzNg*b|o{=", 
+            "note_model_uuid": "e163eda4-81e8-11e8-977e-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Die Robustheit (engl. robustness) ...", 
+                "... ist die Fähigkeit eines System, die Funktion, bei Fehlbedienung oder abweichen von Betriebsbedingungen, fortzusetzen."
+            ], 
+            "flags": 0, 
+            "guid": "Q)Xx/$dhbE", 
+            "note_model_uuid": "e163eda4-81e8-11e8-977e-80fa5b2f5f94", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Die Verfügbarkeit (engl. availability) ...", 
+                "... ist das Verhältnis von störungsfreier Betriebszeit zu Gesamtzeit"
+            ], 
+            "flags": 0, 
+            "guid": "N*L<@23kkT", 
+            "note_model_uuid": "e163eda4-81e8-11e8-977e-80fa5b2f5f94", 
+            "tags": []
+        }
+    ]
+}
